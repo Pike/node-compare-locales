@@ -9,9 +9,9 @@ describe("treehugger", function () {
             //console.dir(parser);
             var nd = parser('  \n  \nkey thingie = value thingie\nfoo:bar');
             assert.ok(nd);
-            //console.log(nd.toPrettyString())
-            console.log(nd.getPos())
-            console.log(nd.findNode({line:2, col:3}).toPrettyString())
+            //console.log(nd.toPrettyString());
+            console.log(nd.getPos());
+            console.log(nd.findNode({line:2, col:3}).toPrettyString());
         });
     });
-})
+});

@@ -12,4 +12,4 @@ describe("treehugger", function () {
             var parser = requirejs("properties_parser");
         });
     });
-})
+});
