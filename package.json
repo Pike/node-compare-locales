@@ -1,0 +1,32 @@
+{
+  "name": "node-compare-locales",
+  "description": "compare-locales implemented in plain js",
+  "keywords": ["l10n"],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Axel Hecht <axel@pike.org>",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec test/*-test.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "bin": {
+    "compare-dirs": "lib/compare_dirs.js"
+  },
+  "dependencies": {
+    "dive": "*",
+    "requirejs": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "licenses": [ {
+    "type": "MPL2",
+    "url" : ""
+  }]
+}
