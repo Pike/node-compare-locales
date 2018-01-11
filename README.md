@@ -9,7 +9,7 @@ This tool is used to gather localization statistics for Mozilla projects.
 
 
 # Tests
-Tests are written with [mocha](http://visionmedia.github.com/mocha/)
+Tests are written with [mocha](http://mochajs.org/)
 
 ```bash
 npm test
